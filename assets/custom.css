@@ -1,0 +1,43 @@
+// formatting of pill labels
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.pills {
+  overflow: auto;
+  list-style-type: none;
+  list-style: none;
+  background-image: none !important;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.pills > li {
+  list-style: none;
+  float: left;
+  padding: 5px;
+  //font-size: 9.75px;
+  //font-weight: bold;
+  color: #ffffff;
+  text-transform: lowercase;
+  white-space: nowrap;
+  background-color: #bfbfbf;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: none !important;
+}
+.pills > li.important {
+  background-color: #c43c35;
+}
+.pills > li.warning {
+  background-color: #f89406;
+}
+.pills > li.success {
+  background-color: #46a546;
+}
